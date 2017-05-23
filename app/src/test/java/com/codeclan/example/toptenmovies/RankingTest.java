@@ -26,7 +26,7 @@ public class RankingTest {
     @Test
     public void canGetRankingatIndex(){
         Ranking ranking = new Ranking();
-        Movie movie = ranking.getMovieatIndex(1);
+        Movie movie = ranking.getMovieatIndex(0);
         assertNotNull(movie);
     }
 

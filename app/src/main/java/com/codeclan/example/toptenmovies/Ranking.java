@@ -19,11 +19,19 @@ public class Ranking {
     }
 
     private void setupDefaultRankings(){
-        Movie[] defaultRankings = {};
-        for (Movie movie : defaultRankings) {
-            this.rankings.add(movie);
-        }
+        this.rankings.add(new Movie("a"));
+        this.rankings.add(new Movie("a"));
+        this.rankings.add(new Movie("a"));
+        this.rankings.add(new Movie("a"));
+        this.rankings.add(new Movie("a"));
+        this.rankings.add(new Movie("a"));
+        this.rankings.add(new Movie("a"));
+        this.rankings.add(new Movie("a"));
+        this.rankings.add(new Movie("a"));
+        this.rankings.add(new Movie("a"));
     }
+
+
     public ArrayList<Movie> getRankings() {
         return new ArrayList<>(this.rankings);
     }
