@@ -9,6 +9,9 @@ public class Movie {
     private String genre;
     private String ranking;
 
+    public String toString() {
+        return "Title: '" + this.title + "', Genre: '" + this.genre + "', Ranking: '" + this.ranking + "'";
+    }
 
     public Movie(String name) {
         this.title= name;
